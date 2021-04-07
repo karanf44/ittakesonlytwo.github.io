@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItTakesOnlyTwo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/015177d6c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="intro">
+    <h1 class="ml8">
+        <span class="letters-container">
+          <span class="letters letters-left">Hi</span>
+          <span class="letters bang">!</span>
+        </span>
+        <span class="circle circle-white"></span>
+        <span class="circle circle-dark"></span>
+        <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+      </h1>
+    </div> -->
+
+    <div class="layout">
+        <header class="header">
+          <img class="logo" src="/public/Logomain.svg" alt="logo" >
+          <nav class="navLink">
+            <div class="buttonContainer">
+              <a href="#" class="navTag">Home</a>
+            </div>
+            <div class="buttonContainer">
+              <a href="#services" class="navTag">Services</a>
+            </div>
+            <div class="buttonContainer">
+              <a href="#contact" class="navTag">Contact</a>
+            </div>
+            
+            
+        
+          </nav>
+        </header>
+
+        <section class="hero">
+          <h1>Full-Stack Develelopment </h1>
+          <p>It Takes Only Two Fundamental Building blocks </p>
+          <h4>Front-End  &   Back-End</h4>
+          <div class="icons">
+            <i class="fab fa-react"></i>
+            <i class="fab fa-angular" ></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-php"></i>
+            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-java"></i>
+            <i class="fab fa-squarespace"></i>
+          </div>
+        </section>
+
+        
+        <section id="services" class="services">
+          <h1 class="serviceTitle">Services</h1>
+          <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox"><img src="/public/programming.svg" alt="Image"></div>
+                    <div class="contentBox">
+                        <h3>Web Development <br><span>Development of Web Applications</span></h3>
+                    </div>
+                    <button id="btn1" class="btn" type="button">Read More...</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox"><img src="/public/play.png" alt="Image"></div>
+                    <div class="contentBox">
+                        <h3>Mobile Application <br><span>Cross Platform Apps</span></h3>
+                    </div>
+                    <button id="btn2" class="btn" type="button">Read More...</button>
+                </div>  
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="imgBox"><img src="/public/computer.png" alt="Image"></div>
+                    <div class="contentBox">
+                        <h3>Software Customisations <br><span>Custom software development </span></h3>
+                    </div>
+                    <button id="btn3" class="btn" type="button">Read More...</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="modal">
+          <div class="modal-header">
+            <span class="close-btn">&times;</span>
+            <h1>I am the Header</h1>
+          </div>
+          <div class="modal-content">
+            <p>this is the text inside the modal</p>
+          </div>
+          <div class="modal-footer">
+            <h2>I am the Footer</h2>
+          </div>
+        </div>
+        </section>
+
+        <section id="contact" class="contact">
+          <h1 class="contactTitle">Contact Us</h1>
+          <div class="contactForm">
+            <p>For any service queries write to us. We'll get back to you.</p>
+            <form action="">
+              <div class="firstRow">
+              <input type="text" name="name" placeholder="name" id="">
+              <input type="email" name="email" placeholder="email" id="">
+              </div>
+              <div class="secondRow">
+                <textarea name="message" id="" cols="10" rows="5" placeholder="Write to us"></textarea>
+              </div>
+            </form>
+            <div class="buttonContainer">
+              <a href="#">
+                <button type="submit">Send Message</button>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+        <footer class="footer">
+        <div class="footer2">
+          <img class="logo" src="./public/Logomain.svg" alt="logo">
+          <div class="foText">
+            <p>gmail.com</p>
+            <p>INDIA, IN</p>
+          </div>
+        </div>
+        <div class="copy">
+           ©2021 ItTakesOnlyTwo
+        </div>
+          
+
+        <div class="socialicons">
+            <ul class="sci">
+              <li style="--i:1">
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:2">
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li style="--i:3">
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+          </ul>
+        </div>
+        </footer>
+
+
+<!--================= Modal Starts here =============-->
+  <div id="my-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2></h2>
+      </div>
+      <div class="modal-body1">
+        <h2>Web Development</h2>
+
+        <p> We design and develop high- end applications tailored as per your requirements creating dynamic web applications that helps you boost user interactivity, increase performance and help you rank up yourself thereby increasing your growth.
+          When It Comes to Web development, we use latest and trending technologies that are ruling the web. 
+          Below are some of the Technologies we use:</p>
+          <div class="iconsServices">
+            <i class="fab fa-react"></i>
+            <i class="fab fa-angular" ></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-php"></i>
+            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-java"></i>
+            <i class="fab fa-squarespace"></i>
+          </div>
+          <h3>Got An IDEA? What you are looking for, Let's Make it happen.</h3>
+          <a class="go1" href="#contact">
+            <button type="button" class="btn">Send Enquiry </button>
+          </a>
+      </div>
+      <div class="modal-body2">
+        <h2>Web Development</h2>
+
+        <p> We design and develop high- end applications tailored as per your requirements creating dynamic web applications that helps you boost user interactivity, increase performance and help you rank up yourself thereby increasing your growth.
+          When It Comes to Web development, we use latest and trending technologies that are ruling the web. 
+          Below are some of the Technologies we use:</p>
+          <div class="iconsServices">
+            <i class="fab fa-react"></i>
+            <i class="fab fa-angular" ></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-php"></i>
+            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-java"></i>
+            <i class="fab fa-squarespace"></i>
+          </div>
+          <h3>Got An IDEA? What you are looking for, Let's Make it happen.</h3>
+          <a class="go2" href="#contact">
+            <button type="button" class="btn">Send Enquiry </button>
+
+          </a>
+      </div>
+      <div class="modal-body3">
+        <h2>Web Development</h2>
+
+        <p> We design and develop high- end applications tailored as per your requirements creating dynamic web applications that helps you boost user interactivity, increase performance and help you rank up yourself thereby increasing your growth.
+          When It Comes to Web development, we use latest and trending technologies that are ruling the web. 
+          Below are some of the Technologies we use:</p>
+          <div class="iconsServices">
+            <i class="fab fa-react"></i>
+            <i class="fab fa-angular" ></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-python"></i>
+            <i class="fab fa-php"></i>
+            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-java"></i>
+            <i class="fab fa-squarespace"></i>
+          </div>
+          <h3>Got An IDEA? What you are looking for, Let's Make it happen.</h3>
+          <a class="go3" href="#contact">
+            <button type="button" class="btn">Send Enquiry </button>
+          </a>
+      </div>
+      <div class="modal-footer">
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+  <!--============== Modal Ends Here ==================-->
+      
+    </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"> </script>
+      <script src="main.js"> </script>
+      <script src="https://kit.fontawesome.com/015177d6c5.js" crossorigin="anonymous"> </script>
+</body>
+</html>
